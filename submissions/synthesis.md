@@ -1,6 +1,6 @@
 # Autonomous Brush Trader
 
-- **Repo:** TODO_GITHUB_URL/Synthesis-SuperRare
+- **Repo:** https://github.com/CrystallineButterfly/Synthesis-SuperRare
 - **Primary track:** SuperRare
 - **Overlap targets:** Uniswap Agentic Finance, ERC-8004 Receipts, Venice Private Agents, ENS, Bankr Gateway
 - **Primary contract:** AutonomousArtSeries
