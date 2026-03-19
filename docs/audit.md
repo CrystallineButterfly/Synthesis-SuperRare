@@ -43,6 +43,14 @@ when live network credentials are absent. Network-only partners still report mis
 `cast send` output is now parsed for `transactionHash` explicitly before falling back to the
 raw stdout payload.
 
+## Track-specific trust boundaries
+
+- primary wrapper contract: `AutonomousArtSeries`
+- live-only partners: SuperRare, Uniswap, Venice, Bankr Gateway
+- offline-prepared partners: ERC-8004 Receipts (prepared_contract_call), ENS (prepared_contract_call)
+- highest-sensitivity actions: venice_private_analysis, bankr_gateway_compute_route
+- latest verification artifact: `artifacts/verification/0xf8c195f120dbed1c851f3bb1cba1749e76c6a2abc7745bc616a88760a261a2b6.json`
+
 ## Current posture
 
 ### Good
