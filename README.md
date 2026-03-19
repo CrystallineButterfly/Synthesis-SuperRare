@@ -5,7 +5,7 @@
 - **Category:** art
 - **Primary contract:** `AutonomousArtSeries`
 - **Primary module:** `autonomous_brush`
-- **Submission status:** implementation ready, waiting for credentials and TxIDs.
+- **Submission status:** audited and offline-demo ready; optional live partner credentials unlock network execution.
 
 ## What this repo does
 
@@ -67,6 +67,31 @@ flowchart TD
 3. Persist a dry-run artifact before any live execution.
 4. Enforce onchain policy through the guarded contract wrapper.
 5. Verify outputs, update receipts, and render submission material.
+
+## Current readiness
+
+- **Latest verification:** `verified` at `2026-03-19T03:52:20+00:00`
+- **Execution mode:** `offline_prepared`
+- **Offline-prepared partners:** ERC-8004 Receipts (prepared_contract_call), ENS (prepared_contract_call)
+- **Live credential blockers:** SuperRare, Uniswap, Venice, Bankr Gateway
+- **Audit docs:** `docs/audit.md`, `docs/live_readiness.md`
+
+## Most sensitive actions
+
+- `venice_private_analysis` (Venice, high)
+- `bankr_gateway_compute_route` (Bankr Gateway, high)
+
+## Live blocker details
+
+- **SuperRare** — SUPERRARE_API_KEY, SUPERRARE_MINT_URL — https://superrare.com/
+- **Uniswap** — UNISWAP_API_KEY, UNISWAP_QUOTE_URL — https://developers.uniswap.org/
+- **Venice** — VENICE_API_KEY, VENICE_CHAT_COMPLETIONS_URL, VENICE_MODEL — https://docs.venice.ai/
+- **Bankr Gateway** — BANKR_API_KEY, BANKR_CHAT_COMPLETIONS_URL, BANKR_MODEL — https://bankr.bot/
+
+## Latest evidence artifacts
+
+- `artifacts/onchain_intents/erc_8004_receipts_receipt_anchor.json`
+- `artifacts/onchain_intents/ens_ens_publish.json`
 
 ## Security controls
 
