@@ -7,5 +7,579 @@
     "details": {
       "status": "ready_for_credentials"
     }
+  },
+  {
+    "timestamp": "2026-03-19T03:30:24+00:00",
+    "stage": "discover",
+    "actor": "agent_runtime",
+    "message": "Ranked local signals.",
+    "details": {
+      "signals": [
+        {
+          "name": "market_state",
+          "description": "Market inputs and agent-decision traces for artwork.",
+          "score": 95
+        },
+        {
+          "name": "media_plan",
+          "description": "Frames, traits, and mint metadata.",
+          "score": 90
+        },
+        {
+          "name": "auction_window",
+          "description": "Bounded sale schedule and reserve policy.",
+          "score": 85
+        },
+        {
+          "name": "receipts",
+          "description": "Mint, auction, and verification receipts.",
+          "score": 80
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:30:24+00:00",
+    "stage": "plan",
+    "actor": "agent_runtime",
+    "message": "Built bounded plan.",
+    "details": {
+      "plan_id": "0xaf3314bbee600b1d1608313f110f3753126c79b57cfbf603eaced746d02559a3"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:30:24+00:00",
+    "stage": "dry_run",
+    "actor": "agent_runtime",
+    "message": "Prepared partner previews.",
+    "details": {
+      "simulation_hash": "0x4e7f4115c44a1b96fc47ec7f7b7fa4184d9e97ba105399e53408694ef2deb661"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:30:24+00:00",
+    "stage": "execute",
+    "actor": "agent_runtime",
+    "message": "Skipped live execution.",
+    "details": {
+      "missing_env": [
+        "BANKR_API_KEY",
+        "BANKR_CHAT_COMPLETIONS_URL",
+        "BANKR_MODEL",
+        "ENS_NAME",
+        "RPC_URL",
+        "SUPERRARE_API_KEY",
+        "SUPERRARE_MINT_URL",
+        "UNISWAP_API_KEY",
+        "UNISWAP_QUOTE_URL",
+        "VENICE_API_KEY",
+        "VENICE_CHAT_COMPLETIONS_URL",
+        "VENICE_MODEL"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:30:24+00:00",
+    "stage": "verify",
+    "actor": "agent_runtime",
+    "message": "Wrote verification.",
+    "details": {
+      "status": "verified",
+      "project_name": "Autonomous Brush Trader",
+      "track": "SuperRare",
+      "plan_id": "0xaf3314bbee600b1d1608313f110f3753126c79b57cfbf603eaced746d02559a3",
+      "simulation_hash": "0x4e7f4115c44a1b96fc47ec7f7b7fa4184d9e97ba105399e53408694ef2deb661",
+      "execution_status": "awaiting_credentials",
+      "tx_ids": [],
+      "created_at": "2026-03-19T03:30:24+00:00"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:30:24+00:00",
+    "stage": "discover",
+    "actor": "agent_runtime",
+    "message": "Ranked local signals.",
+    "details": {
+      "signals": [
+        {
+          "name": "market_state",
+          "description": "Market inputs and agent-decision traces for artwork.",
+          "score": 95
+        },
+        {
+          "name": "media_plan",
+          "description": "Frames, traits, and mint metadata.",
+          "score": 90
+        },
+        {
+          "name": "auction_window",
+          "description": "Bounded sale schedule and reserve policy.",
+          "score": 85
+        },
+        {
+          "name": "receipts",
+          "description": "Mint, auction, and verification receipts.",
+          "score": 80
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:30:24+00:00",
+    "stage": "plan",
+    "actor": "agent_runtime",
+    "message": "Built bounded plan.",
+    "details": {
+      "plan_id": "0xaf3314bbee600b1d1608313f110f3753126c79b57cfbf603eaced746d02559a3"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:30:24+00:00",
+    "stage": "dry_run",
+    "actor": "agent_runtime",
+    "message": "Prepared partner previews.",
+    "details": {
+      "simulation_hash": "0x4e7f4115c44a1b96fc47ec7f7b7fa4184d9e97ba105399e53408694ef2deb661"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:30:24+00:00",
+    "stage": "execute",
+    "actor": "agent_runtime",
+    "message": "Skipped live execution.",
+    "details": {
+      "missing_env": [
+        "BANKR_API_KEY",
+        "BANKR_CHAT_COMPLETIONS_URL",
+        "BANKR_MODEL",
+        "ENS_NAME",
+        "RPC_URL",
+        "SUPERRARE_API_KEY",
+        "SUPERRARE_MINT_URL",
+        "UNISWAP_API_KEY",
+        "UNISWAP_QUOTE_URL",
+        "VENICE_API_KEY",
+        "VENICE_CHAT_COMPLETIONS_URL",
+        "VENICE_MODEL"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:30:24+00:00",
+    "stage": "verify",
+    "actor": "agent_runtime",
+    "message": "Wrote verification.",
+    "details": {
+      "status": "verified",
+      "project_name": "Autonomous Brush Trader",
+      "track": "SuperRare",
+      "plan_id": "0xaf3314bbee600b1d1608313f110f3753126c79b57cfbf603eaced746d02559a3",
+      "simulation_hash": "0x4e7f4115c44a1b96fc47ec7f7b7fa4184d9e97ba105399e53408694ef2deb661",
+      "execution_status": "awaiting_credentials",
+      "tx_ids": [],
+      "created_at": "2026-03-19T03:30:24+00:00"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:39:23.678178+00:00",
+    "stage": "security_review",
+    "actor": "audit_pass",
+    "message": "Completed the shared hardening and offline-artifact audit pass.",
+    "details": {
+      "status": "audited_ready_pending_live_credentials",
+      "primary_contract": "AutonomousArtSeries.sol"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:49:09+00:00",
+    "stage": "discover",
+    "actor": "agent_runtime",
+    "message": "Ranked local signals.",
+    "details": {
+      "signals": [
+        {
+          "name": "market_state",
+          "description": "Market inputs and agent-decision traces for artwork.",
+          "score": 95
+        },
+        {
+          "name": "media_plan",
+          "description": "Frames, traits, and mint metadata.",
+          "score": 90
+        },
+        {
+          "name": "auction_window",
+          "description": "Bounded sale schedule and reserve policy.",
+          "score": 85
+        },
+        {
+          "name": "receipts",
+          "description": "Mint, auction, and verification receipts.",
+          "score": 80
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:49:09+00:00",
+    "stage": "plan",
+    "actor": "agent_runtime",
+    "message": "Built bounded plan for every repo action.",
+    "details": {
+      "plan_id": "0x31e3ca46cf4e7d412ab11e32686b1e2290351c2f01263e622be417076d2c558b",
+      "action_count": 6
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:49:09+00:00",
+    "stage": "dry_run",
+    "actor": "agent_runtime",
+    "message": "Prepared partner previews.",
+    "details": {
+      "simulation_hash": "0xca89de1c3c0a6c9d89121bd785d3b6a5c89229b6bb98bd5d9d87fed97a0538a2"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:49:09+00:00",
+    "stage": "execute",
+    "actor": "agent_runtime",
+    "message": "Prepared offline artifacts and skipped network execution.",
+    "details": {
+      "missing_env": [
+        "BANKR_API_KEY",
+        "BANKR_CHAT_COMPLETIONS_URL",
+        "BANKR_MODEL",
+        "SUPERRARE_API_KEY",
+        "SUPERRARE_MINT_URL",
+        "UNISWAP_API_KEY",
+        "UNISWAP_QUOTE_URL",
+        "VENICE_API_KEY",
+        "VENICE_CHAT_COMPLETIONS_URL",
+        "VENICE_MODEL"
+      ],
+      "artifact_count": 2
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:49:09+00:00",
+    "stage": "verify",
+    "actor": "agent_runtime",
+    "message": "Wrote verification.",
+    "details": {
+      "status": "verified",
+      "project_name": "Autonomous Brush Trader",
+      "track": "SuperRare",
+      "plan_id": "0x31e3ca46cf4e7d412ab11e32686b1e2290351c2f01263e622be417076d2c558b",
+      "simulation_hash": "0xca89de1c3c0a6c9d89121bd785d3b6a5c89229b6bb98bd5d9d87fed97a0538a2",
+      "execution_status": "offline_prepared",
+      "tx_ids": [],
+      "artifact_paths": [
+        "artifacts/onchain_intents/erc_8004_receipts_receipt_anchor.json",
+        "artifacts/onchain_intents/ens_ens_publish.json"
+      ],
+      "partner_statuses": {
+        "SuperRare": "awaiting_credentials",
+        "Uniswap": "awaiting_credentials",
+        "ERC-8004 Receipts": "prepared_contract_call",
+        "Venice": "awaiting_credentials",
+        "ENS": "prepared_contract_call",
+        "Bankr Gateway": "awaiting_credentials"
+      },
+      "created_at": "2026-03-19T03:49:09+00:00"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:50:51+00:00",
+    "stage": "discover",
+    "actor": "agent_runtime",
+    "message": "Ranked local signals.",
+    "details": {
+      "signals": [
+        {
+          "name": "market_state",
+          "description": "Market inputs and agent-decision traces for artwork.",
+          "score": 95
+        },
+        {
+          "name": "media_plan",
+          "description": "Frames, traits, and mint metadata.",
+          "score": 90
+        },
+        {
+          "name": "auction_window",
+          "description": "Bounded sale schedule and reserve policy.",
+          "score": 85
+        },
+        {
+          "name": "receipts",
+          "description": "Mint, auction, and verification receipts.",
+          "score": 80
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:50:51+00:00",
+    "stage": "plan",
+    "actor": "agent_runtime",
+    "message": "Built bounded plan for every repo action.",
+    "details": {
+      "plan_id": "0xcab54ba12f25d806fa8f283baac4d9689b3658db8aeee2c788bc4ef501f2517e",
+      "action_count": 6
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:50:51+00:00",
+    "stage": "dry_run",
+    "actor": "agent_runtime",
+    "message": "Prepared partner previews.",
+    "details": {
+      "simulation_hash": "0x26ab039b60a235bc8d94fe7190a8640fe18bc21313a53c903ee9d2e769f585e4"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:50:51+00:00",
+    "stage": "execute",
+    "actor": "agent_runtime",
+    "message": "Prepared offline artifacts and skipped network execution.",
+    "details": {
+      "missing_env": [
+        "BANKR_API_KEY",
+        "BANKR_CHAT_COMPLETIONS_URL",
+        "BANKR_MODEL",
+        "SUPERRARE_API_KEY",
+        "SUPERRARE_MINT_URL",
+        "UNISWAP_API_KEY",
+        "UNISWAP_QUOTE_URL",
+        "VENICE_API_KEY",
+        "VENICE_CHAT_COMPLETIONS_URL",
+        "VENICE_MODEL"
+      ],
+      "artifact_count": 2
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:50:51+00:00",
+    "stage": "verify",
+    "actor": "agent_runtime",
+    "message": "Wrote verification.",
+    "details": {
+      "status": "verified",
+      "project_name": "Autonomous Brush Trader",
+      "track": "SuperRare",
+      "plan_id": "0xcab54ba12f25d806fa8f283baac4d9689b3658db8aeee2c788bc4ef501f2517e",
+      "simulation_hash": "0x26ab039b60a235bc8d94fe7190a8640fe18bc21313a53c903ee9d2e769f585e4",
+      "execution_status": "offline_prepared",
+      "tx_ids": [],
+      "artifact_paths": [
+        "artifacts/onchain_intents/erc_8004_receipts_receipt_anchor.json",
+        "artifacts/onchain_intents/ens_ens_publish.json"
+      ],
+      "partner_statuses": {
+        "SuperRare": "awaiting_credentials",
+        "Uniswap": "awaiting_credentials",
+        "ERC-8004 Receipts": "prepared_contract_call",
+        "Venice": "awaiting_credentials",
+        "ENS": "prepared_contract_call",
+        "Bankr Gateway": "awaiting_credentials"
+      },
+      "created_at": "2026-03-19T03:50:51+00:00"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:51:48+00:00",
+    "stage": "discover",
+    "actor": "agent_runtime",
+    "message": "Ranked local signals.",
+    "details": {
+      "signals": [
+        {
+          "name": "market_state",
+          "description": "Market inputs and agent-decision traces for artwork.",
+          "score": 95
+        },
+        {
+          "name": "media_plan",
+          "description": "Frames, traits, and mint metadata.",
+          "score": 90
+        },
+        {
+          "name": "auction_window",
+          "description": "Bounded sale schedule and reserve policy.",
+          "score": 85
+        },
+        {
+          "name": "receipts",
+          "description": "Mint, auction, and verification receipts.",
+          "score": 80
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:51:48+00:00",
+    "stage": "plan",
+    "actor": "agent_runtime",
+    "message": "Built bounded plan for every repo action.",
+    "details": {
+      "plan_id": "0xc5e58773d8a4a0632e6e2c61341b1f0adaaf0011586570366c2830be1163f872",
+      "action_count": 6
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:51:48+00:00",
+    "stage": "dry_run",
+    "actor": "agent_runtime",
+    "message": "Prepared partner previews.",
+    "details": {
+      "simulation_hash": "0xe209509873db66be2914c0ea46176ef807383b0853f1f4de31340dc285af1642"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:51:48+00:00",
+    "stage": "execute",
+    "actor": "agent_runtime",
+    "message": "Prepared offline artifacts and skipped network execution.",
+    "details": {
+      "missing_env": [
+        "BANKR_API_KEY",
+        "BANKR_CHAT_COMPLETIONS_URL",
+        "BANKR_MODEL",
+        "SUPERRARE_API_KEY",
+        "SUPERRARE_MINT_URL",
+        "UNISWAP_API_KEY",
+        "UNISWAP_QUOTE_URL",
+        "VENICE_API_KEY",
+        "VENICE_CHAT_COMPLETIONS_URL",
+        "VENICE_MODEL"
+      ],
+      "artifact_count": 2
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:51:48+00:00",
+    "stage": "verify",
+    "actor": "agent_runtime",
+    "message": "Wrote verification.",
+    "details": {
+      "status": "verified",
+      "project_name": "Autonomous Brush Trader",
+      "track": "SuperRare",
+      "plan_id": "0xc5e58773d8a4a0632e6e2c61341b1f0adaaf0011586570366c2830be1163f872",
+      "simulation_hash": "0xe209509873db66be2914c0ea46176ef807383b0853f1f4de31340dc285af1642",
+      "execution_status": "offline_prepared",
+      "tx_ids": [],
+      "artifact_paths": [
+        "artifacts/onchain_intents/erc_8004_receipts_receipt_anchor.json",
+        "artifacts/onchain_intents/ens_ens_publish.json"
+      ],
+      "partner_statuses": {
+        "SuperRare": "awaiting_credentials",
+        "Uniswap": "awaiting_credentials",
+        "ERC-8004 Receipts": "prepared_contract_call",
+        "Venice": "awaiting_credentials",
+        "ENS": "prepared_contract_call",
+        "Bankr Gateway": "awaiting_credentials"
+      },
+      "created_at": "2026-03-19T03:51:48+00:00"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:52:20+00:00",
+    "stage": "discover",
+    "actor": "agent_runtime",
+    "message": "Ranked local signals.",
+    "details": {
+      "signals": [
+        {
+          "name": "market_state",
+          "description": "Market inputs and agent-decision traces for artwork.",
+          "score": 95
+        },
+        {
+          "name": "media_plan",
+          "description": "Frames, traits, and mint metadata.",
+          "score": 90
+        },
+        {
+          "name": "auction_window",
+          "description": "Bounded sale schedule and reserve policy.",
+          "score": 85
+        },
+        {
+          "name": "receipts",
+          "description": "Mint, auction, and verification receipts.",
+          "score": 80
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:52:20+00:00",
+    "stage": "plan",
+    "actor": "agent_runtime",
+    "message": "Built bounded plan for every repo action.",
+    "details": {
+      "plan_id": "0xf8c195f120dbed1c851f3bb1cba1749e76c6a2abc7745bc616a88760a261a2b6",
+      "action_count": 6
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:52:20+00:00",
+    "stage": "dry_run",
+    "actor": "agent_runtime",
+    "message": "Prepared partner previews.",
+    "details": {
+      "simulation_hash": "0x05cf2522f6eebd1ddb0d3949bf5a8026499e8309e62a1cb31e31a76f96c82bec"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:52:20+00:00",
+    "stage": "execute",
+    "actor": "agent_runtime",
+    "message": "Prepared offline artifacts and skipped network execution.",
+    "details": {
+      "missing_env": [
+        "BANKR_API_KEY",
+        "BANKR_CHAT_COMPLETIONS_URL",
+        "BANKR_MODEL",
+        "SUPERRARE_API_KEY",
+        "SUPERRARE_MINT_URL",
+        "UNISWAP_API_KEY",
+        "UNISWAP_QUOTE_URL",
+        "VENICE_API_KEY",
+        "VENICE_CHAT_COMPLETIONS_URL",
+        "VENICE_MODEL"
+      ],
+      "artifact_count": 2
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:52:20+00:00",
+    "stage": "verify",
+    "actor": "agent_runtime",
+    "message": "Wrote verification.",
+    "details": {
+      "status": "verified",
+      "project_name": "Autonomous Brush Trader",
+      "track": "SuperRare",
+      "plan_id": "0xf8c195f120dbed1c851f3bb1cba1749e76c6a2abc7745bc616a88760a261a2b6",
+      "simulation_hash": "0x05cf2522f6eebd1ddb0d3949bf5a8026499e8309e62a1cb31e31a76f96c82bec",
+      "execution_status": "offline_prepared",
+      "tx_ids": [],
+      "artifact_paths": [
+        "artifacts/onchain_intents/erc_8004_receipts_receipt_anchor.json",
+        "artifacts/onchain_intents/ens_ens_publish.json"
+      ],
+      "partner_statuses": {
+        "SuperRare": "awaiting_credentials",
+        "Uniswap": "awaiting_credentials",
+        "ERC-8004 Receipts": "prepared_contract_call",
+        "Venice": "awaiting_credentials",
+        "ENS": "prepared_contract_call",
+        "Bankr Gateway": "awaiting_credentials"
+      },
+      "created_at": "2026-03-19T03:52:20+00:00"
+    }
   }
 ]
